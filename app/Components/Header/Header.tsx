@@ -13,7 +13,7 @@ const Header = () => {
                 </div>
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
                     <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <p className="text-4xl font-bold"><span className="text-red-800">DEMO</span>NAME</p>
+                        <p className="text-4xl font-bold"><span className="text-red-800">CAR</span>REPAIR</p>
                     </Link>
 
                     <div className="flex items-center space-x-6 rtl:space-x-reverse">
@@ -24,7 +24,7 @@ const Header = () => {
                 </div>
             </nav>
             <nav className="bg-gray-50 dark:bg-gray-700">
-                <div className="max-w-screen-xl px-4 py-3 mx-auto">
+                <div className="max-w-screen-xl px-4 py-3 lg:mx-auto">
                     <div className="flex items-center lg:justify-center flex-row font-medium mt-0 space-x-8 lg:space-x-28 rtl:space-x-reverse text-sm">
                         <Link className="text-gray-900 font-bold dark:text-white hover:underline" aria-current="page" href={''}>
                             HOME
