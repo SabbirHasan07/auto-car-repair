@@ -3,11 +3,12 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 const CompanyServices: React.FC = () => {
+
     return (
         <div>
             <div><h1 className='py-11 text-center font-bold text-4xl'>Services</h1></div>
-            <div className='grid grid-cols-3 gap-4 p-4 items-center text-center justify-center'>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className='ml-11  lg:grid   lg:grid-cols-3 gap-4 p-4 items-center text-center justify-center'>
+                <div className="relative mb-6 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 group">
                     <Link href="#">
                         <Image
                             className="rounded-t-lg"
@@ -15,7 +16,6 @@ const CompanyServices: React.FC = () => {
                             alt="Technology Acquisitions 2021"
                             height={500}
                             width={500}
-
                         />
                     </Link>
                     <div className="p-5">
@@ -27,30 +27,29 @@ const CompanyServices: React.FC = () => {
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             We provide complete car servicing, including logbook servicing, using the latest equipment and high-quality parts.
                         </p>
+
+                    </div>
+                    <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
+
                         <Link
-                            href="#"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            href={'/'}
+
+
                         >
-                            Read more
-                            <svg
-                                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 14 10"
-                            >
-                                <path
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                                />
-                            </svg>
+                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
                         </Link>
+
+                        <Link
+                            href={'/'}
+
+
+                        >
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                        </Link>
+
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="relative mb-6 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 group">
                     <Link href="#">
                         <Image
                             className="rounded-t-lg"
@@ -69,30 +68,29 @@ const CompanyServices: React.FC = () => {
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             Qualified mechanics conduct a full range of mechanical repairs, replacements, and diagnostics for all types of vehicles.
                         </p>
+
+                    </div>
+                    <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
+
                         <Link
-                            href="#"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            href={'/'}
+
+
                         >
-                            Read more
-                            <svg
-                                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 14 10"
-                            >
-                                <path
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                                />
-                            </svg>
+                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
                         </Link>
+
+                        <Link
+                            href={'/'}
+
+
+                        >
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                        </Link>
+
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="relative mb-6 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 group">
                     <Link href="#">
                         <Image
                             className="rounded-t-lg"
@@ -105,43 +103,42 @@ const CompanyServices: React.FC = () => {
                     <div className="p-5">
                         <Link href="#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                BREAK AND CLUTCH
+                                CLUTCH & BREAKS
                             </h5>
                         </Link>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             Brake &amp; clutch service and repairs, from brake pads to clutch kits, we&apos;ve got you covered.
                         </p>
+
+                    </div>
+                    <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
+
                         <Link
-                            href="#"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            href={'/'}
+
+
                         >
-                            Read more
-                            <svg
-                                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 14 10"
-                            >
-                                <path
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                                />
-                            </svg>
+                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
                         </Link>
+
+                        <Link
+                            href={'/'}
+
+
+                        >
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                        </Link>
+
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="relative mb-6 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 group">
                     <Link href="#">
                         <Image
                             className="rounded-t-lg"
-                            src="/docs/images/blog/image-1.jpg"
+                            src="/assets/AdobeStock_434099016.jpeg"
                             alt="Technology Acquisitions 2021"
-                            height={50}
-                            width={50}
+                            height={500}
+                            width={500}
                         />
                     </Link>
                     <div className="p-5">
@@ -151,81 +148,79 @@ const CompanyServices: React.FC = () => {
                             </h5>
                         </Link>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                            Complete electronic diagnostic services to identify faults and provide solutions.
+                            Discover the most impactful technology takeovers and mergers of 2021, which are influencing the enterprise market.
                         </p>
+
+                    </div>
+                    <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
+
                         <Link
-                            href="#"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            href={'/'}
+
+
                         >
-                            Read more
-                            <svg
-                                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 14 10"
-                            >
-                                <path
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                                />
-                            </svg>
+                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
                         </Link>
+
+                        <Link
+                            href={'/'}
+
+
+                        >
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                        </Link>
+
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="relative max-w-sm mb-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 group">
                     <Link href="#">
                         <Image
                             className="rounded-t-lg"
-                            src="/docs/images/blog/image-1.jpg"
+                            src="/assets/car-front-suspension-blog-images-2022-05-may-tiresplus-web-bsro.jpeg"
                             alt="Technology Acquisitions 2021"
-                            height={50}
-                            width={50}
+                            height={500}
+                            width={500}
                         />
                     </Link>
                     <div className="p-5">
                         <Link href="#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                SUSPENSION
+                                SUSPENSIONS
                             </h5>
                         </Link>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             Our team provides complete suspension inspection, service, and repair services.
                         </p>
+
+                    </div>
+                    <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
+
                         <Link
-                            href="#"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            href={'/'}
+
+
                         >
-                            Read more
-                            <svg
-                                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 14 10"
-                            >
-                                <path
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                                />
-                            </svg>
+                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
                         </Link>
+
+                        <Link
+                            href={'/'}
+
+
+                        >
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                        </Link>
+
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="relative max-w-sm mb-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 group">
                     <Link href="#">
                         <Image
                             className="rounded-t-lg"
-                            src="/docs/images/blog/image-1.jpg"
+                            src="/assets/what-to-consider-before-buying-a-new-car-battery.jpeg"
                             alt="Technology Acquisitions 2021"
-                            height={50}
-                            width={50}
+                            height={500}
+                            width={500}
                         />
                     </Link>
                     <div className="p-5">
@@ -238,81 +233,76 @@ const CompanyServices: React.FC = () => {
                             Keep your car running with AutoPlus battery replacement and testing services.
                         </p>
 
+                    </div>
+                    <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
+
                         <Link
-                            href="#"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            href={'/'}
+
+
                         >
-                            Read more
-                            <svg
-                                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 14 10"
-                            >
-                                <path
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                                />
-                            </svg>
+                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
                         </Link>
+
+                        <Link
+                            href={'/'}
+
+
+                        >
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                        </Link>
+
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="relative max-w-sm mb-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 group">
                     <Link href="#">
                         <Image
                             className="rounded-t-lg"
-                            src="/docs/images/blog/image-1.jpg"
+                            src="/assets/fuelinjection.jpeg"
                             alt="Technology Acquisitions 2021"
-                            height={50}
-                            width={50}
+                            height={500}
+                            width={500}
                         />
                     </Link>
                     <div className="p-5">
                         <Link href="#">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                FUEL INJECTION SERVICES
+                                FUEL INJECTION SERVICE
                             </h5>
                         </Link>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                            Regular EFI servicing helps your car operate at its optimum fuel efficiency and power.
+                            Keep your car running with AutoPlus battery replacement and testing services.
                         </p>
 
+                    </div>
+                    <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
                         <Link
-                            href="#"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            href={'/'}
+
+
                         >
-                            Read more
-                            <svg
-                                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 14 10"
-                            >
-                                <path
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                                />
-                            </svg>
+                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
                         </Link>
+
+                        <Link
+                            href={'/'}
+
+
+                        >
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                        </Link>
+
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="relative max-w-sm mb-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 group">
                     <Link href="#">
                         <Image
                             className="rounded-t-lg"
-                            src="/docs/images/blog/image-1.jpg"
+                            src="/assets/cooling.jpeg"
                             alt="Technology Acquisitions 2021"
-                            height={50}
-                            width={50}
+                            height={500}
+                            width={500}
                         />
                     </Link>
                     <div className="p-5">
@@ -325,38 +315,35 @@ const CompanyServices: React.FC = () => {
                             A properly operating cooling system helps keep your engine running at its best.
                         </p>
 
+                    </div>
+                    <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
                         <Link
-                            href="#"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            href={'/'}
+
+
                         >
-                            Read more
-                            <svg
-                                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 14 10"
-                            >
-                                <path
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                                />
-                            </svg>
+                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
                         </Link>
+
+                        <Link
+                            href={'/'}
+
+
+                        >
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                        </Link>
+
                     </div>
                 </div>
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="relative max-w-sm mb-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 group">
                     <Link href="#">
                         <Image
                             className="rounded-t-lg"
-                            src="/docs/images/blog/image-1.jpg"
+                            src="/assets/depositphotos_250171020-stock-photo-rack-with-variety-of-new.jpg"
                             alt="Technology Acquisitions 2021"
-                            height={50}
-                            width={50}
+                            height={500}
+                            width={500}
                         />
                     </Link>
                     <div className="p-5">
@@ -366,33 +353,38 @@ const CompanyServices: React.FC = () => {
                             </h5>
                         </Link>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                            Selected stores now stock and fit a range of quality tyres at competitive prices.
+                            Regular EFI servicing helps your car operate at its optimum fuel efficiency and power.
                         </p>
 
+                    </div>
+                    <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
                         <Link
-                            href="#"
-                            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            href={'/'}
+
+
                         >
-                            Read more
-                            <svg
-                                className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 14 10"
-                            >
-                                <path
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M1 5h12m0 0L9 1m4 4L9 9"
-                                />
-                            </svg>
+                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
                         </Link>
+
+                        <Link
+                            href={'/'}
+
+
+                        >
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                        </Link>
+
                     </div>
                 </div>
+
+
+
+
+
+
+
+
             </div>
         </div>
     );
