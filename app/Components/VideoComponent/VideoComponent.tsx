@@ -22,7 +22,7 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ videoSrc, demoname }) =
     }, []);
 
     const handleShopNowClick = () => {
-        router.push('/shop');
+        router.push('/pages/servicing');
     };
 
     if (!isMounted) {
@@ -50,7 +50,7 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ videoSrc, demoname }) =
 
                 {/* Shop Now button */}
                 <button
-                    className="px-6 py-3 bg-blue-600 text-white font-semibold text-lg rounded-md shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="px-6 py-3 bg-gray-900 text-white font-semibold text-lg rounded-md shadow-lg hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-400"
                     onClick={handleShopNowClick}
                 >
                     Shop Now

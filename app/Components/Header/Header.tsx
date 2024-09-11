@@ -26,7 +26,7 @@ const Header = () => {
             <nav className="bg-gray-50 dark:bg-gray-700">
                 <div className="max-w-screen-xl px-4 py-3 lg:mx-auto">
                     <div className="flex items-center lg:justify-center flex-row font-medium mt-0 space-x-8 lg:space-x-28 rtl:space-x-reverse text-sm">
-                        <Link className="text-gray-900 font-bold dark:text-white hover:underline" aria-current="page" href={''}>
+                        <Link className="text-gray-900 font-bold dark:text-white hover:underline" aria-current="page" href={'/'}>
                             HOME
                         </Link>
                         <Link className="text-gray-900 font-bold dark:text-white hover:underline" aria-current="page" href={''}>
