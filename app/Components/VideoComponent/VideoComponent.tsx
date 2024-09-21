@@ -53,7 +53,7 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ videoSrc, demoname }) =
                     className="px-6 py-3 bg-gray-900 text-white font-semibold text-lg rounded-md shadow-lg hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-400"
                     onClick={handleShopNowClick}
                 >
-                    Shop Now
+                    BOOK NOW
                 </button>
             </div>
         </div>

@@ -1,0 +1,25 @@
+{
+    "services": [
+      {
+        "name": "LOG BOOK SERVICE",
+        "image": "/assets/AdobeStock_434099016.jpeg",
+        "title": "Maintain your new car manufacturer's statutory warranty and enjoy AutoPlus expert car servicing"
+      },
+      {
+        "name": "FULL SERVICE",
+        "image": "/assets/log.jpg",
+        "title": "Experience the AutoPlus difference for your car's next service, using the latest equipment and quality parts"
+      },
+      {
+        "name": "SERVICE PLUS",
+        "image": "/assets/responsibilites.jpg",
+        "title": "'Service Plus' ... You'll never get it anywhere else! Exceptional quality and value for money service at AutoPlus!"
+      },
+      {
+        "name": "COMPLETE SERVICE LEVEL",
+        "image": "/assets/customer.jpg",
+        "title": "Compare our service levels and inclusions for a quality, value for money car service performed by our qualified mechanics"
+      }
+    ]
+  }
+  

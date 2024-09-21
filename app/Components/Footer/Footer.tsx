@@ -19,10 +19,10 @@ const Footer: React.FC = () => {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link href="https://flowbite.com/" className="hover:underline">About</Link>
+                  <Link href="/pages/about" className="hover:underline">About</Link>
                 </li>
                 <li>
-                  <Link href="https://tailwindcss.com/" className="hover:underline">Services</Link>
+                  <Link href="/pages/servicing" className="hover:underline">Services</Link>
                 </li>
               </ul>
             </div>
@@ -30,10 +30,10 @@ const Footer: React.FC = () => {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link href="https://github.com/themesberg/flowbite" className="hover:underline">Mechanical</Link>
+                  <Link href="/pages/mechanical" className="hover:underline">Mechanical</Link>
                 </li>
                 <li>
-                  <Link href="https://discord.gg/4eeurUVvTy" className="hover:underline">Offers</Link>
+                  <Link href="/pages/offer" className="hover:underline">Offers</Link>
                 </li>
               </ul>
             </div>

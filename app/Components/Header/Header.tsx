@@ -29,10 +29,10 @@ const Header = () => {
                         <Link className="text-gray-900 font-bold dark:text-white hover:underline" aria-current="page" href={'/'}>
                             HOME
                         </Link>
-                        <Link className="text-gray-900 font-bold dark:text-white hover:underline" aria-current="page" href={''}>
+                        <Link className="text-gray-900 font-bold dark:text-white hover:underline" aria-current="page" href={'/pages/servicing'}>
                             SERVICING
                         </Link>
-                        <Link className="text-gray-900 font-bold dark:text-white hover:underline" aria-current="page" href={''}>
+                        <Link className="text-gray-900 font-bold dark:text-white hover:underline" aria-current="page" href={'/pages/mechanical'}>
                             MECHANICAL
                         </Link>
                         <Link className="text-gray-900 font-bold dark:text-white hover:underline" aria-current="page" href={'/pages/offer'}>

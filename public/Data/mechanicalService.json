@@ -1,0 +1,25 @@
+{
+    "services": [
+      {
+        "name": "Brake Repair",
+        "image": "/assets/log.jpg",
+        "title": "High-quality brake repair services to ensure your safety on the road."
+      },
+      {
+        "name": "Engine Diagnostics",
+        "image": "/assets/responsibilites.jpg",
+        "title": "Advanced diagnostics to keep your engine running smoothly."
+      },
+      {
+        "name": "Suspension Service",
+        "image": "/assets/AdobeStock_434099016.jpeg",
+        "title": "Professional suspension services for a smooth and controlled ride."
+      },
+      {
+        "name": "Transmission Repair",
+        "image": "/assets/customer.jpg",
+        "title": "Expert transmission repair to keep your car shifting smoothly."
+      }
+    ]
+  }
+  
