@@ -27,7 +27,7 @@ const OfferPage: React.FC = () => {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white rounded-lg p-6 w-80 text-center">
             <h2 className="text-xl font-semibold">Congratulations!</h2>
-            <p className="mt-2">You've claimed your offer!</p>
+            <h2 className="mt-2">You&apos;ve claimed your offer!</h2> {/* Escaped single quote */}
             <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600" onClick={closeModal}>
               Close
             </button>
@@ -52,9 +52,9 @@ const OfferCard: React.FC<OfferCardProps> = ({ price, discount, packageName, com
   return (
     <div className={`bg-white rounded-lg shadow-lg p-6 text-center w-60 m-4 ${combo ? 'border-2 border-red-500' : ''}`}>
       <h2 className="text-xl font-semibold mb-2">{packageName}</h2>
-      <p className="text-lg text-gray-500 line-through">${price.toFixed(2)}</p>
-      <p className="text-lg text-red-500">{discount}% Off</p>
-      <p className="text-2xl font-bold text-green-600">${discountedPrice.toFixed(2)}</p>
+      <h2 className="text-lg text-gray-500 line-through">${price.toFixed(2)}</h2>
+      <h2 className="text-lg text-red-500">{discount}% Off</h2>
+      <h2 className="text-2xl font-bold text-green-600">${discountedPrice.toFixed(2)}</h2>
       <button
         className="mt-4 px-4 py-2 bg-black text-white rounded hover:bg-red-600 transition focus:outline-none focus:ring-2 focus:ring-red-500"
         onClick={onClaim} // Trigger onClaim when button is clicked
