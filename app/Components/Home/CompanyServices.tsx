@@ -31,20 +31,14 @@ const CompanyServices: React.FC = () => {
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
+                        
+
                         <Link
-                            href={'/'}
+                            href={'/pages/servicing'}
 
 
                         >
-                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
-                        </Link>
-
-                        <Link
-                            href={'/'}
-
-
-                        >
-                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">BOOK NOW</span>
                         </Link>
 
                     </div>
@@ -72,20 +66,14 @@ const CompanyServices: React.FC = () => {
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
+                        
+
                         <Link
-                            href={'/'}
+                            href={'/pages/servicing'}
 
 
                         >
-                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
-                        </Link>
-
-                        <Link
-                            href={'/'}
-
-
-                        >
-                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">BOOK NOW</span>
                         </Link>
 
                     </div>
@@ -113,20 +101,14 @@ const CompanyServices: React.FC = () => {
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
+                        
+
                         <Link
-                            href={'/'}
+                            href={'/pages/servicing'}
 
 
                         >
-                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
-                        </Link>
-
-                        <Link
-                            href={'/'}
-
-
-                        >
-                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">BOOK NOW</span>
                         </Link>
 
                     </div>
@@ -154,20 +136,14 @@ const CompanyServices: React.FC = () => {
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
+                        
+
                         <Link
-                            href={'/'}
+                            href={'/pages/servicing'}
 
 
                         >
-                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
-                        </Link>
-
-                        <Link
-                            href={'/'}
-
-
-                        >
-                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">BOOK NOW</span>
                         </Link>
 
                     </div>
@@ -195,20 +171,14 @@ const CompanyServices: React.FC = () => {
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
+                        
+
                         <Link
-                            href={'/'}
+                            href={'/pages/servicing'}
 
 
                         >
-                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
-                        </Link>
-
-                        <Link
-                            href={'/'}
-
-
-                        >
-                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">BOOK NOW</span>
                         </Link>
 
                     </div>
@@ -236,20 +206,14 @@ const CompanyServices: React.FC = () => {
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
+                        
+
                         <Link
-                            href={'/'}
+                            href={'/pages/servicing'}
 
 
                         >
-                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
-                        </Link>
-
-                        <Link
-                            href={'/'}
-
-
-                        >
-                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">BOOK NOW</span>
                         </Link>
 
                     </div>
@@ -277,20 +241,14 @@ const CompanyServices: React.FC = () => {
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
+                        
+
                         <Link
-                            href={'/'}
+                            href={'/pages/servicing'}
 
 
                         >
-                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
-                        </Link>
-
-                        <Link
-                            href={'/'}
-
-
-                        >
-                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">BOOK NOW</span>
                         </Link>
 
                     </div>
@@ -318,20 +276,14 @@ const CompanyServices: React.FC = () => {
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
+                        
+
                         <Link
-                            href={'/'}
+                            href={'/pages/servicing'}
 
 
                         >
-                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
-                        </Link>
-
-                        <Link
-                            href={'/'}
-
-
-                        >
-                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">BOOK NOW</span>
                         </Link>
 
                     </div>
@@ -359,20 +311,14 @@ const CompanyServices: React.FC = () => {
                     </div>
                     <div className="absolute inset-0 flex items-center justify-center gap-6 text-white bg-gary-900 rounded-lg opacity-0 group-hover:opacity-100 group-hover:backdrop-blur-md transition-opacity duration-300">
 
+                        
+
                         <Link
-                            href={'/'}
+                            href={'/pages/servicing'}
 
 
                         >
-                            <span className="text-lg font-bold bg-gray-900 px-4 py-2 rounded">Read More</span>
-                        </Link>
-
-                        <Link
-                            href={'/'}
-
-
-                        >
-                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">Book Now</span>
+                            <span className="text-lg font-bold bg-red-900 px-4 py-2 rounded">BOOK NOW</span>
                         </Link>
 
                     </div>
