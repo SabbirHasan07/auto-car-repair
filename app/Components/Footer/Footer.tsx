@@ -1,11 +1,18 @@
-
+'use client'
+import { motion } from 'framer-motion';
 import Link from 'next/link';
 import React from 'react';
 
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 text-white dark:bg-gray-900">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <motion.div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8"
+      
+      initial={{ opacity: 0, y: -100 }}  
+        whileInView={{ opacity: 1, y: 0 }} 
+        transition={{ duration: 1 }}       
+        viewport={{ amount: 0.5 }} 
+      >
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link
@@ -71,7 +78,7 @@ const Footer: React.FC = () => {
             {/* Add more icons as needed */}
           </div>
         </div>
-      </div>
+      </motion.div>
     </footer>
   );
 };
