@@ -2,7 +2,8 @@ import Image from "next/image";
 
 const WelcomeText = () => {
     return (
-        <div >
+        <div className="my-4">
+            
             <div className="text-center text-4xl font-bold pb-11 lg:py-24">Welcome to Car Repair</div>
             <div className="lg:flex grid gap-4 p-4">
                 <div className="grid grid-cols-3 gap-4">
